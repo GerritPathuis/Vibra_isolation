@@ -1,0 +1,16 @@
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.exe.config
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.exe
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.pdb
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.xml
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.vbprojResolveAssemblyReference.cache
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.Form1.resources
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.Resources.resources
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.vbproj.GenerateResource.Cache
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.vbproj.CoreCompileInputs.cache
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.exe
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.xml
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.pdb
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.exe.manifest
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\bin\Debug\Vibra_isolation.application
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.exe.manifest
+C:\Repos\VTK_Vibra_isolation\Vibra_isolation\Vibra_isolation\obj\Debug\Vibra_isolation.application
