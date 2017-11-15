@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vibra_isolation.exe" size="26552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vibra_isolation.exe" size="35768">
       <assemblyIdentity name="Vibra_isolation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>r5OpyJG+qcn6G2raoSUzUmreVp0sa4AE9GiyhNK/Aas=</dsig:DigestValue>
+        <dsig:DigestValue>pKNjOuIUkhvlozkN5EvHR8kpMJWDeqp0mhmLVlPyI0o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
