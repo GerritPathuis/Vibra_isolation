@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Label22 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.TextBox17 = New System.Windows.Forms.TextBox()
@@ -43,6 +44,8 @@ Partial Class Form1
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -71,9 +74,8 @@ Partial Class Form1
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
@@ -99,6 +101,8 @@ Partial Class Form1
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Label24)
+        Me.TabPage1.Controls.Add(Me.Label23)
         Me.TabPage1.Controls.Add(Me.Label22)
         Me.TabPage1.Controls.Add(Me.Label14)
         Me.TabPage1.Controls.Add(Me.GroupBox4)
@@ -114,6 +118,16 @@ Partial Class Form1
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Machine data"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(363, 217)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(78, 16)
+        Me.Label22.TabIndex = 36
+        Me.Label22.Text = "Problem 1"
         '
         'Label14
         '
@@ -287,9 +301,9 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(546, 256)
+        Me.Button1.Location = New System.Drawing.Point(664, 334)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(161, 31)
+        Me.Button1.Size = New System.Drawing.Size(88, 31)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -313,6 +327,25 @@ Partial Class Form1
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Isolator data"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(19, 122)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(223, 16)
+        Me.Label15.TabIndex = 21
+        Me.Label15.Text = "Required Spring rate (each) [N/mm] "
+        '
+        'TextBox18
+        '
+        Me.TextBox18.BackColor = System.Drawing.SystemColors.InactiveBorder
+        Me.TextBox18.Location = New System.Drawing.Point(244, 122)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(67, 20)
+        Me.TextBox18.TabIndex = 20
+        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label11
         '
@@ -361,7 +394,7 @@ Partial Class Form1
         Me.NumericUpDown3.Size = New System.Drawing.Size(67, 20)
         Me.NumericUpDown3.TabIndex = 7
         Me.NumericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown3.Value = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.NumericUpDown3.Value = New Decimal(New Integer() {8, 0, 0, 0})
         '
         'Label5
         '
@@ -425,15 +458,15 @@ Partial Class Form1
         '
         Me.NumericUpDown4.BackColor = System.Drawing.Color.Yellow
         Me.NumericUpDown4.DecimalPlaces = 2
-        Me.NumericUpDown4.Increment = New Decimal(New Integer() {1, 0, 0, 131072})
+        Me.NumericUpDown4.Increment = New Decimal(New Integer() {1, 0, 0, 65536})
         Me.NumericUpDown4.Location = New System.Drawing.Point(244, 99)
         Me.NumericUpDown4.Maximum = New Decimal(New Integer() {9, 0, 0, 65536})
-        Me.NumericUpDown4.Minimum = New Decimal(New Integer() {7, 0, 0, 65536})
+        Me.NumericUpDown4.Minimum = New Decimal(New Integer() {2, 0, 0, 65536})
         Me.NumericUpDown4.Name = "NumericUpDown4"
         Me.NumericUpDown4.Size = New System.Drawing.Size(67, 20)
         Me.NumericUpDown4.TabIndex = 18
         Me.NumericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown4.Value = New Decimal(New Integer() {7, 0, 0, 65536})
+        Me.NumericUpDown4.Value = New Decimal(New Integer() {6, 0, 0, 65536})
         '
         'Label12
         '
@@ -519,13 +552,13 @@ Partial Class Form1
         Me.NumericUpDown1.BackColor = System.Drawing.Color.Yellow
         Me.NumericUpDown1.Increment = New Decimal(New Integer() {200, 0, 0, 0})
         Me.NumericUpDown1.Location = New System.Drawing.Point(173, 27)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {10000, 0, 0, 0})
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {20000, 0, 0, 0})
         Me.NumericUpDown1.Minimum = New Decimal(New Integer() {50, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(67, 20)
         Me.NumericUpDown1.TabIndex = 2
         Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown1.Value = New Decimal(New Integer() {3000, 0, 0, 0})
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {8200, 0, 0, 0})
         '
         'TextBox1
         '
@@ -604,34 +637,25 @@ Partial Class Form1
         Me.TextBox7.TabIndex = 0
         Me.TextBox7.Text = "http://www.vibrationmounts.com/RFQ/VM01033.htm"
         '
-        'Label15
+        'Label23
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(19, 122)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(223, 16)
-        Me.Label15.TabIndex = 21
-        Me.Label15.Text = "Required Spring rate (each) [N/mm] "
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(363, 236)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(78, 16)
+        Me.Label23.TabIndex = 37
+        Me.Label23.Text = "Problem 2"
         '
-        'TextBox18
+        'Label24
         '
-        Me.TextBox18.BackColor = System.Drawing.SystemColors.InactiveBorder
-        Me.TextBox18.Location = New System.Drawing.Point(244, 122)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(67, 20)
-        Me.TextBox18.TabIndex = 20
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(363, 217)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(362, 16)
-        Me.Label22.TabIndex = 36
-        Me.Label22.Text = "Howto: Select isolator model until only green shows"
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(363, 255)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(78, 16)
+        Me.Label24.TabIndex = 38
+        Me.Label24.Text = "Problem 3"
         '
         'Form1
         '
@@ -712,4 +736,6 @@ Partial Class Form1
     Friend WithEvents Label15 As Label
     Friend WithEvents TextBox18 As TextBox
     Friend WithEvents Label22 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
 End Class

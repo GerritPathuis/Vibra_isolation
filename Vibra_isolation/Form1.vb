@@ -65,7 +65,7 @@ Public Class Form1
             words = iso_dia(hh).Split(CType(";", Char()))
             ComboBox1.Items.Add(words(0))
         Next hh
-        ComboBox1.SelectedIndex = 13
+        ComboBox1.SelectedIndex = 25
 
     End Sub
     Private Sub Calc_iso()
@@ -134,10 +134,30 @@ Public Class Form1
                 TextBox17.Text = f_total.ToString
 
                 '-----------Checks----------
-                TextBox17.BackColor = CType(IIf(NumericUpDown1.Value * 10 > f_total, Color.Red, Color.LightGreen), Color)
-                TextBox15.BackColor = CType(IIf(req_deflec > instal_deflec, Color.Red, Color.LightGreen), Color)
+                If (NumericUpDown1.Value * 10 > f_total) Then
+                    TextBox17.BackColor = Color.Red
+                    Label22.Text = "Weight fan too high"
+                Else
+                    TextBox17.BackColor = Color.LightGreen
+                    Label22.Text = ""
+                End If
 
-                TextBox16.BackColor = CType(IIf(instal_srate * 0.8 < req_srate, Color.LightGreen, Color.Red), Color)
+                If (req_deflec > instal_deflec) Then
+                    TextBox15.BackColor = Color.Red
+                    Label23.Text = "Deflection isolator too small"
+                Else
+                    TextBox15.BackColor = Color.LightGreen
+                    Label23.Text = ""
+                End If
+
+                If (instal_srate * 0.8 > req_srate) Then
+                    TextBox16.BackColor = Color.Red
+                    Label24.Text = "Isolators too stiff"
+                Else
+                    TextBox16.BackColor = Color.LightGreen
+                    Label24.Text = ""
+                End If
+
             Catch ex As Exception
                 MessageBox.Show(ex.Message)  ' Show the exception's message.
             End Try
