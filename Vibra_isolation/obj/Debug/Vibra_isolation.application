@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="file://vtkfile/data2/engineering/vbasic/vibration_isolating/Vibra_isolation.application" />
+    <deploymentProvider codebase="file://dcf1/data2$/engineering/vbasic/vibration_isolating/Vibra_isolation.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>o78Alk8sIDp0ctQ59dtbzs/+i74M7xlAZDEiVahXYRE=</dsig:DigestValue>
+        <dsig:DigestValue>+R0sgF0LP3g8KpJIBHNZI1+5uhyCpVHRv904FUyI59U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
