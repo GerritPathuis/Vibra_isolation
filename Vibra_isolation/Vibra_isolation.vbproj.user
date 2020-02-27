@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>n:\engineering\vbasic\vibration_isolating\|publish\</PublishUrlHistory>
-    <InstallUrlHistory>\\vtkfile\data2\engineering\vbasic\vibration_isolating\</InstallUrlHistory>
+    <InstallUrlHistory>\\DCF1\data2%24\engineering\vbasic\vibration_isolating\|\\vtkfile\data2\engineering\vbasic\vibration_isolating\</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
